@@ -1,5 +1,5 @@
 export const switchyardData = [
-    {id:'0', title:'Bay-3-82-TR-01', description:'Transformer (Bay-01)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1734339936/nameplate_web/WhatsApp_Image_2024-12-16_at_2.32.38_PM_nmjmtl.jpg", data: [
+    {id:'0', title:'Bay-3-82-TR-01', description:'Transformer (Tie Line)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1734339936/nameplate_web/WhatsApp_Image_2024-12-16_at_2.32.38_PM_nmjmtl.jpg", data: [
         {name:'Make', value:'Alstom'},
         {name:'Type', value:'Double wound'},
         {name:'Type of Cooling', value:'ONAN | ONAF'},
@@ -11,7 +11,7 @@ export const switchyardData = [
         {name:'Volume of Oil', value:'30500 L'},
         {name:'No. of taps', value:'17'},
     ]},
-    {id:'19', title:'Bay-4-82-TR-02', description:'Transformer (Bay-05)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1734339936/nameplate_web/WhatsApp_Image_2024-12-16_at_2.32.38_PM_nmjmtl.jpg", data: [
+    {id:'19', title:'Bay-4-82-TR-02', description:'Transformer (Line-2)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1734339936/nameplate_web/WhatsApp_Image_2024-12-16_at_2.32.38_PM_nmjmtl.jpg", data: [
         {name:'Make', value:'Alstom'},
         {name:'Type', value:'Double wound'},
         {name:'Type of Cooling', value:'ONAN | ONAF'},
@@ -23,7 +23,7 @@ export const switchyardData = [
         {name:'Volume of Oil', value:'30500 L'},
         {name:'No. of taps', value:'17'},
     ]},
-    {id:'20', title:'TG-05', description:'Transformer (28/35 MVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735877443/nameplate_web/qt9gdp1vqj2qukwscutx.jpg", data: [
+    {id:'20', title:'TG-05 Transformer', description:'Transformer (28/35 MVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735877443/nameplate_web/qt9gdp1vqj2qukwscutx.jpg", data: [
         {name:'Make', value:'Alstom'},
         {name:'Mfg year', value:'2003'},
         {name:'Type', value:'Double wound'},
@@ -38,7 +38,7 @@ export const switchyardData = [
         {name:'Mass of oil', value:'11700kg'},
         {name:'Volume of oil', value:'13100L'},
     ]},
-    {id:'21', title:'TG-01', description:'Transformer (28/35 MVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735877443/nameplate_web/qt9gdp1vqj2qukwscutx.jpg", data: [
+    {id:'21', title:'TG-01 Transformer', description:'Transformer (28/35 MVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735877443/nameplate_web/qt9gdp1vqj2qukwscutx.jpg", data: [
         {name:'Make', value:'Alstom'},
         {name:'Mfg year', value:'2003'},
         {name:'Type', value:'Double wound'},
@@ -53,18 +53,18 @@ export const switchyardData = [
         {name:'Mass of oil', value:'11700kg'},
         {name:'Volume of oil', value:'13100L'},
     ]},
-    {id:'22', title:'TG-04', description:'Transformer (20MVA)', imageUrl:"", data: [
+    {id:'22', title:'TG-04 Transformer', description:'Transformer (20MVA)', imageUrl:"", data: [
         {name:'Make', value:''},
         {name:'Mfg year', value:''},
         {name:'Rated voltage', value:'6.6/11kv'},
         {name:'Oil (in L)', value:''}
     ]},
-    {id:'23', title:'TG-02', description:'Transformer (TG-02)', imageUrl:"", data: [
+    {id:'23', title:'TG-02 Tranformer', description:'Transformer (TG-02)', imageUrl:"", data: [
         {name:'Make', value:''},
         {name:'Mfg year', value:''},
         {name:'Oil (in L)', value:''}
     ]},
-    {id:'25', title:'82-TR-01', description:'Transformer', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735877540/nameplate_web/bse4cdctf21qms82ohrm.jpg", data: [
+    {id:'25', title:'82-TR-01', description:'Transformer (2000 KVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735877540/nameplate_web/bse4cdctf21qms82ohrm.jpg", data: [
         {name:'Make', value:'Alstom'},
         {name:'Mfg year', value:'1996'},
         {name:'Type of Cooling', value:'ONAN'},
