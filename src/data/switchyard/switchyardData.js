@@ -56,7 +56,7 @@ export const switchyardData = [
     {id:'22', title:'TG-04 Transformer', description:'Transformer (20MVA)', imageUrl:"", data: [
         {name:'Make', value:''},
         {name:'Mfg year', value:''},
-        {name:'Rated voltage', value:'6.6/11kv'},
+        {name:'Rated voltage', value:'6.6kv/11kv'},
         {name:'Oil (in L)', value:''}
     ]},
     {id:'23', title:'TG-02 Tranformer', description:'Transformer (TG-02)', imageUrl:"", data: [
@@ -77,10 +77,16 @@ export const switchyardData = [
         {name:'Mass of oil', value:'1300 kg'},
         {name:'Volume of oil', value:'1490 L'},
     ]},
-    {id:'24', title:'SA Fan Transformer', description:'Transformer (1 MVA)', imageUrl:"", data: [
-        {name:'Make', value:''},
-        {name:'Mfg year', value:''},
-        {name:'Oil (in L)', value:''}
+    {id:'24', title:'SA Fan Transformer', description:'Transformer (1 MVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1736237950/nameplate_web/x6pnfhayinkl2fkayd3a.jpg", data: [
+        {name:'Make', value:'VOLTAMP'},
+        {name:'Mfg year', value:'2012'},
+        {name:'Rated Voltage', value:'3300V/415V'},
+        {name:'Rated Current', value:'174.95A/1391.20A'},
+        {name:'Temperature rise (Top oil)', value:'50'},
+        {name:'Temperature rise (Avg Wdg)', value:'55'},
+        {name:'Vector group', value:'Dyn11'},
+        {name:'Weight of oil', value:'645 kg'},
+        {name:'Volume of oil', value:'720 L'},
     ]},
     {id:'26', title:'82-TL-01', description:'Transformer for Lighting (500 kVA)', imageUrl:"", data: [
         {name:'Make', value:'VOLTAMP'},
@@ -149,7 +155,7 @@ export const switchyardData = [
         {name:'Voltage', value:''},
         {name:'Earth Switch', value:'Yes'}
     ]},
-    {id:'9', title:'Bay-2-CB', description:'Circuit Breaker (Line-2)', imageUrl:"", data: [
+    {id:'9', title:'Bay-2-CB', description:'Circuit Breaker (Line-2)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735704903/nameplate_web/WhatsApp_Image_2025-01-01_at_9.43.36_AM_zm4rk8.jpg", data: [
         {name:'Make', value:'Crompton'},
         {name:'Rated Voltage', value:'245kV'},
         {name:'Rated Normal current', value:'2000A'},
@@ -194,7 +200,7 @@ export const switchyardData = [
         {name:'Rated current', value:'10kA'},
         {name:'Rated voltage', value:'198kV'},
     ]},
-    {id:'15', title:'Bay-3-CB', description:'Circuit Breaker (Bay-03)', imageUrl:"", data: [
+    {id:'15', title:'Bay-3-CB', description:'Circuit Breaker (Bay-03)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735704903/nameplate_web/WhatsApp_Image_2025-01-01_at_9.43.36_AM_zm4rk8.jpg", data: [
         {name:'Make', value:'Crompton'},
         {name:'Rated Voltage', value:'245kV'},
         {name:'Rated Normal current', value:'2000A'},
@@ -228,7 +234,7 @@ export const switchyardData = [
         {name:'Rated current', value:'10kA'},
         {name:'Rated voltage', value:'198kV'},
     ]},
-    {id:'4', title:'Bay-5-CB', description:'Circuit Breaker (Bus coupler)', imageUrl:"", data: [
+    {id:'4', title:'Bay-5-CB', description:'Circuit Breaker (Bus coupler)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735704903/nameplate_web/WhatsApp_Image_2025-01-01_at_9.43.36_AM_zm4rk8.jpg", data: [
         {name:'Make', value:'Crompton'},
         {name:'Rated Voltage', value:'245kV'},
         {name:'Rated Normal current', value:'2000A'},
