@@ -88,7 +88,7 @@ export const switchyardData = [
         {name:'Weight of oil', value:'645 kg'},
         {name:'Volume of oil', value:'720 L'},
     ]},
-    {id:'26', title:'82-TL-01', description:'Transformer for Lighting (500 kVA)', imageUrl:"", data: [
+    {id:'27', title:'82-TL-01', description:'Transformer for Lighting (500 kVA)', imageUrl:"", data: [
         {name:'Make', value:'VOLTAMP'},
         {name:'Mfg year', value:''},
         {name:'Oil (in L)', value:''}
@@ -98,7 +98,7 @@ export const switchyardData = [
         {name:'Type', value:''},
         {name:'Voltage ratio', value:'220kv/110kv'},
     ]},
-    {id:'21', title:'Bay-1-LA', description:'Lightening Arrestor', imageUrl:"", data: [
+    {id:'28', title:'Bay-1-LA', description:'Lightening Arrestor', imageUrl:"", data: [
         {name:'Make', value:''},
         {name:'Mfg year', value:''},
         {name:'Rated current', value:'10kA'},
@@ -266,5 +266,246 @@ export const switchyardData = [
         {name:'Make', value:''},
         {name:'Mfg year', value:''},
         {name:'Oil (in L)', value:''}
+    ]},
+]
+
+export const otherTransformerData = [
+    {id:'0', title:'Auxiliary Transformer', description:'Transformer for Auxiliaries (6 MVA)', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Oil (in L)', value:''}
+    ]},
+    {id:'24', title:'SA Fan Transformer', description:'Transformer (1 MVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1736237950/nameplate_web/x6pnfhayinkl2fkayd3a.jpg", data: [
+        {name:'Make', value:'VOLTAMP'},
+        {name:'Mfg year', value:'2012'},
+        {name:'Rated Voltage', value:'3300V/415V'},
+        {name:'Rated Current', value:'174.95A/1391.20A'},
+        {name:'Temperature rise (Top oil)', value:'50'},
+        {name:'Temperature rise (Avg Wdg)', value:'55'},
+        {name:'Vector group', value:'Dyn11'},
+        {name:'Weight of oil', value:'645 kg'},
+        {name:'Volume of oil', value:'720 L'},
+    ]},
+]
+
+export const tgTransformerData = [
+    {id:'20', title:'TG-05 Transformer', description:'Transformer (28/35 MVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735877443/nameplate_web/qt9gdp1vqj2qukwscutx.jpg", data: [
+        {name:'Make', value:'Alstom'},
+        {name:'Mfg year', value:'2003'},
+        {name:'Type', value:'Double wound'},
+        {name:'Type of Cooling', value:'ONAN | ONAF'},
+        {name:'Rated Voltage', value:'11kv/11.75kv'},
+        {name:'Rated Current', value:'1471.4A/1377.4A'},
+        {name:'Maximum temperature rise (top oil)', value:'50'},
+        {name:'Maximum temperature rise (avg winding)', value:'55'},
+        {name:'Maximum temperature rise (avg winding)', value:'55'},
+        {name:'Vector group', value:'Dyn11'},
+        {name:'Insulation levels', value:'L1 75 AC 28 (primary, secondary, sec. neutral)'},
+        {name:'Mass of oil', value:'11700kg'},
+        {name:'Volume of oil', value:'13100L'},
+    ]},
+    {id:'21', title:'TG-01 Transformer', description:'Transformer (28/35 MVA)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735877443/nameplate_web/qt9gdp1vqj2qukwscutx.jpg", data: [
+        {name:'Make', value:'Alstom'},
+        {name:'Mfg year', value:'2003'},
+        {name:'Type', value:'Double wound'},
+        {name:'Type of Cooling', value:'ONAN | ONAF'},
+        {name:'Rated Voltage', value:'11kv/11.75kv'},
+        {name:'Rated Current', value:'1471.4A/1377.4A'},
+        {name:'Maximum temperature rise (top oil)', value:'50'},
+        {name:'Maximum temperature rise (avg winding)', value:'55'},
+        {name:'Maximum temperature rise (avg winding)', value:'55'},
+        {name:'Vector group', value:'Dyn11'},
+        {name:'Insulation levels', value:'L1 75 AC 28 (primary, secondary, sec. neutral)'},
+        {name:'Mass of oil', value:'11700kg'},
+        {name:'Volume of oil', value:'13100L'},
+    ]},
+    {id:'22', title:'TG-04 Transformer', description:'Transformer (20MVA)', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Rated voltage', value:'6.6kv/11kv'},
+        {name:'Oil (in L)', value:''}
+    ]},
+    {id:'23', title:'TG-02 Tranformer', description:'Transformer (TG-02)', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Oil (in L)', value:''}
+    ]},
+]
+
+export const tieLineData = [
+    {id:'099', title:'Bay-1-CVT', description:'Capacitive Voltage Transformer', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Type', value:''},
+        {name:'Voltage ratio', value:'220kv/110kv'},
+    ]},
+    {id:'28', title:'Bay-1-LA', description:'Lightening Arrestor', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Rated current', value:'10kA'},
+        {name:'Rated voltage', value:'198kV'},
+    ]},
+    {id:'1', title:'Bay-1-Isolator', description:'Isolator', imageUrl:"", data: [
+        {name:'Type', value:'Double Throw'},
+        {name:'Make', value:''},
+        {name:'Current', value:'2000A'},
+        {name:'Voltage', value:''},
+        {name:'Earth Switch', value:'Yes'}
+    ]},
+    {id:'2', title:'Bay-1-CB', description:'Circuit Breaker (Tie Line)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735704903/nameplate_web/WhatsApp_Image_2025-01-01_at_9.43.36_AM_zm4rk8.jpg", data: [
+        {name:'Make', value:'Crompton'},
+        {name:'Rated Voltage', value:'245kV'},
+        {name:'Rated Normal current', value:'2000A'},
+        {name:'Rated Opening/Closing Voltage', value:'110VDC'},
+        {name:'Rated Gas Pressure', value:'6kg/cm2-g (At 20*C'},
+        {name:'Rated Lighting Impulse withstand voltage', value:'1050kVp'},
+        {name:'Rated Short Circuit Breaking current', value:'40kA'},
+        {name:'Rated Operating Pressure', value:'15kg/cm2-g'},
+        {name:'Rated Duration of Short Circuit current', value:'3s (40kA)'},
+        {name:'Rated Line Charging current', value:'125A'},
+        {name:'First pole to clear factor', value:'1.3'},
+        {name:'Gas Weight', value:'21kg'},
+        {name:'Rated Operating Sequence', value:'0-0.3s-CO-3min-CC'},
+    ]},
+    {id:'3', title:'Bay-1-CT', description:'Current Transformer (Tie Line)', imageUrl:"", data: [
+        {name:'Make', value:'Siemens'},
+        {name:'Mfg year', value:''},
+        {name:'Current Ratio (Core 1&4)', value:'120/1'},
+        {name:'Current Ratio (Core 2&3)', value:'800/1'},
+    ]},
+    {id:'12', title:'Bay-3-Isolator', description:'Isolator', imageUrl:"", data: [
+        {name:'Type', value:'Double Throw'},
+        {name:'Make', value:''},
+        {name:'Current', value:'2000A'},
+        {name:'Voltage', value:''},
+        {name:'Earth Switch', value:'Yes'}
+    ]},
+    {id:'13', title:'Bay-3-CT', description:'Current Transformer (Bay-04)', imageUrl:"", data: [
+        {name:'Make', value:'Siemens'},
+        {name:'Mfg year', value:''},
+        {name:'Current Ratio (Core 1&4)', value:'120/1'},
+        {name:'Current Ratio (Core 2&3)', value:'800/1'},
+    ]},
+    {id:'14', title:'Bay-3-LA', description:'Lightening Arrestor', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Rated current', value:'10kA'},
+        {name:'Rated voltage', value:'198kV'},
+    ]},
+    {id:'15', title:'Bay-3-CB', description:'Circuit Breaker (Bay-03)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735704903/nameplate_web/WhatsApp_Image_2025-01-01_at_9.43.36_AM_zm4rk8.jpg", data: [
+        {name:'Make', value:'Crompton'},
+        {name:'Rated Voltage', value:'245kV'},
+        {name:'Rated Normal current', value:'2000A'},
+        {name:'Rated Opening/Closing Voltage', value:'110VDC'},
+        {name:'Rated Gas Pressure', value:'6kg/cm2-g (At 20*C'},
+        {name:'Rated Lighting Impulse withstand voltage', value:'1050kVp'},
+        {name:'Rated Short Circuit Breaking current', value:'40kA'},
+        {name:'Rated Operating Pressure', value:'15kg/cm2-g'},
+        {name:'Rated Duration of Short Circuit current', value:'3s (40kA)'},
+        {name:'Rated Line Charging current', value:'125A'},
+        {name:'First pole to clear factor', value:'1.3'},
+        {name:'Gas Weight', value:'21kg'},
+        {name:'Rated Operating Sequence', value:'0-0.3s-CO-3min-CC'},
+    ]},
+]
+
+export const lineData = [
+    {id:'7', title:'Bay-2-CVT', description:'Capacitive Voltage Transformer', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Voltage ratio', value:'220/110V'}
+    ]},
+    {id:'41', title:'Bay-2-LA', description:'Lightening Arrestor', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Rated current', value:'10kA'},
+        {name:'Rated voltage', value:'198kV'},
+    ]},
+    {id:'71', title:'Bay-2-IVT', description:'Inductive Voltage Transformer', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Voltage ratio', value:'220/110V'}
+    ]},
+    {id:'8', title:'Bay-2-Isolator', description:'Isolator', imageUrl:"", data: [
+        {name:'Type', value:'Double Throw'},
+        {name:'Make', value:''},
+        {name:'Current', value:'2000A'},
+        {name:'Voltage', value:''},
+        {name:'Earth Switch', value:'Yes'}
+    ]},
+    {id:'9', title:'Bay-2-CB', description:'Circuit Breaker (Line-2)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735704903/nameplate_web/WhatsApp_Image_2025-01-01_at_9.43.36_AM_zm4rk8.jpg", data: [
+        {name:'Make', value:'Crompton'},
+        {name:'Rated Voltage', value:'245kV'},
+        {name:'Rated Normal current', value:'2000A'},
+        {name:'Rated Opening/Closing Voltage', value:'110VDC'},
+        {name:'Rated Gas Pressure', value:'6kg/cm2-g (At 20*C'},
+        {name:'Rated Lighting Impulse withstand voltage', value:'1050kVp'},
+        {name:'Rated Short Circuit Breaking current', value:'40kA'},
+        {name:'Rated Operating Pressure', value:'15kg/cm2-g'},
+        {name:'Rated Duration of Short Circuit current', value:'3s (40kA)'},
+        {name:'Rated Line Charging current', value:'125A'},
+        {name:'First pole to clear factor', value:'1.3'},
+        {name:'Gas Weight', value:'21kg'},
+        {name:'Rated Operating Sequence', value:'0-0.3s-CO-3min-CC'},
+    ]},
+    {id:'10', title:'Bay-2-GEB-CT', description:'GEB Current Transformer', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Current Ratio', value:'120/1A'}
+    ]},
+    {id:'11', title:'Bay-2-CT', description:'Current Transformer (Line-2)', imageUrl:"", data: [
+        {name:'Make', value:'Siemens'},
+        {name:'Mfg year', value:''},
+        {name:'Current Ratio (Core 1&4)', value:'120/1'},
+        {name:'Current Ratio (Core 2&3)', value:'800/1'},
+    ]},
+    {id:'16', title:'Bay-4-Isolator', description:'Isolator', imageUrl:"", data: [
+        {name:'Type', value:'Double Throw'},
+        {name:'Make', value:''},
+        {name:'Current', value:'2000A'},
+        {name:'Voltage', value:''},
+        {name:'Earth Switch', value:'Yes'}
+    ]},
+    {id:'17', title:'Bay-4-CT', description:'Current Transformer', imageUrl:"", data: [
+        {name:'Make', value:'Siemens'},
+        {name:'Mfg year', value:''},
+        {name:'Current Ratio (Core 1&4)', value:'120/1'},
+        {name:'Current Ratio (Core 2&3)', value:'800/1'},
+    ]},
+    {id:'18', title:'Bay-4-LA', description:'Lightening Arrestor', imageUrl:"", data: [
+        {name:'Make', value:''},
+        {name:'Mfg year', value:''},
+        {name:'Rated current', value:'10kA'},
+        {name:'Rated voltage', value:'198kV'},
+    ]},
+]
+
+export const busData = [
+    {id:'4', title:'Bay-5-CB', description:'Circuit Breaker (Bus coupler)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735704903/nameplate_web/WhatsApp_Image_2025-01-01_at_9.43.36_AM_zm4rk8.jpg", data: [
+        {name:'Make', value:'Crompton'},
+        {name:'Rated Voltage', value:'245kV'},
+        {name:'Rated Normal current', value:'2000A'},
+        {name:'Rated Opening/Closing Voltage', value:'110VDC'},
+        {name:'Rated Gas Pressure', value:'6kg/cm2-g (At 20*C'},
+        {name:'Rated Lighting Impulse withstand voltage', value:'1050kVp'},
+        {name:'Rated Short Circuit Breaking current', value:'40kA'},
+        {name:'Rated Operating Pressure', value:'15kg/cm2-g'},
+        {name:'Rated Duration of Short Circuit current', value:'3s (40kA)'},
+        {name:'Rated Line Charging current', value:'125A'},
+        {name:'First pole to clear factor', value:'1.3'},
+        {name:'Gas Weight', value:'21kg'},
+        {name:'Rated Operating Sequence', value:'0-0.3s-CO-3min-CC'},
+    ]},
+    {id:'5', title:'Bay-5-CT', description:'Current Transformer (Bus coupler)', imageUrl:"", data: [
+        {name:'Make', value:'Siemens'},
+        {name:'Mfg year', value:''},
+        {name:'Current Ratio (Core 1&4)', value:'120/1'},
+        {name:'Current Ratio (Core 2&3)', value:'800/1'},
+    ]},
+    {id:'61', title:'Bay-5-Isolator', description:'Isolator', imageUrl:"", data: [
+        {name:'Type', value:'Double Throw'},
+        {name:'Make', value:''},
+        {name:'Current', value:'2000A'},
+        {name:'Voltage', value:''},
+        {name:'Earth Switch', value:'Yes'}
     ]},
 ]
