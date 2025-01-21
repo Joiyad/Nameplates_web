@@ -15,6 +15,7 @@ import SwitchYard from './pages/SwitchYard';
 import TGHouse from './pages/TGHouse';
 import DGHouse from './pages/DGHouse';
 import ESP from './pages/ESP';
+import Search from './pages/Search';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,7 @@ function App() {
           <Suspense fallback={<Loader />}>
             <HomePage/>
           </Suspense>}/>
+          <Route path="/search" element={<Search />} />
           <Route path="/cpp1" element={<CPP1 />} />
           <Route path="/cpp3" element={<CPP3 />} />
           <Route path="/cpp1/switchyard" element={<SwitchYard />} />

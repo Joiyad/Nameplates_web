@@ -1,14 +1,19 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { data } from "../../data/Navbar/navbarData";
 
 const Navbar = () => {
   const [isExpanded, toggleExpansion] = useState(false);
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate(-1);
+  }
 
   return (
     <nav className="fixed top-0 w-full flex items-center justify-between flex-wrap backdrop-blur-sm px-4 md:px-16 py-3 z-20">
       <Link to="/" className="text-2xl font-semibold items-center inline-flex flex-shrink-0 text-black ml-2">
-        <p className="hidden md:block">Nameplate_web</p>
+        <p className="block">Nameplate_web</p>
       </Link>
 
       {/* Button for small screen */}
@@ -41,6 +46,7 @@ const Navbar = () => {
           </Link>
           ))}
         </div>
+        <button className="bg-red-300 px-4 py-1 rounded-md font-semibold" onClick={handleBack}>Back</button>
       </div>
     </nav>
   );

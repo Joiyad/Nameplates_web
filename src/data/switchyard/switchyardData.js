@@ -333,9 +333,18 @@ export const tgTransformerData = [
 ]
 
 export const tieLineData = [
-    {id:'099', title:'Bay-1-CVT', description:'Capacitive Voltage Transformer', imageUrl:"", data: [
-        {name:'Make', value:''},
-        {name:'Type', value:''},
+    {id:'099', title:'Bay-1-CVT', description:'Capacitive Voltage Transformer', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1736479308/nameplate_web/cwbli5ou9ibpxybkpi1w.jpg", data: [
+        {name:'Make', value:'Siemens'},
+        {name:'Mfg year', value:'2021'},
+        {name:'Type', value:'CVT 245'},
+        {name:'Insulation Level', value:'460kV/1050kVp'},
+        {name:'Capacitance', value:'5500 pF (+10%, -9%)'},
+        {name:'Total Oil Weight', value:'42kg'},
+        {name:'Highest System Voltage', value:'245kV'},
+        {name:'Voltage factor', value:'1.2 Continuous / 1.5-30 sec'},
+        {name:'Simultaneous Burden', value:'50 VA/ 0.2'},
+        {name:'Rated Thermal Burden', value:'500 VA'},
+        {name:'Insulation Class', value:'A'},
         {name:'Voltage ratio', value:'220kv/110kv'},
     ]},
     {id:'28', title:'Bay-1-LA', description:'Lightening Arrestor', imageUrl:"", data: [
@@ -344,12 +353,19 @@ export const tieLineData = [
         {name:'Rated current', value:'10kA'},
         {name:'Rated voltage', value:'198kV'},
     ]},
-    {id:'1', title:'Bay-1-Isolator', description:'Isolator', imageUrl:"", data: [
+    {id:'1', title:'Bay-1-Isolator', description:'Isolator', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1736479313/nameplate_web/vcuzc7mtdonj49hzxhkd.jpg", data: [
         {name:'Type', value:'Double Throw'},
-        {name:'Make', value:''},
-        {name:'Current', value:'2000A'},
-        {name:'Voltage', value:''},
-        {name:'Earth Switch', value:'Yes'}
+        {name:'Make', value:'Elektrolites (Power) PVT. LTD.'},
+        {name:'Mfg year', value: '2020'},
+        {name:'Rated Current', value:'2000A'},
+        {name:'Rated Voltage', value:'245kV'},
+        {name:'Rated Auxiliary Voltage', value:'110V DC'},
+        {name:'Earth Switch', value:'Yes'},
+        {name:'Reduction Gear Ratio', value:'50/1'},
+        {name:'Degree of Protection', value:'IP 55'},
+        {name:'Rated Motor parameters', value:'415 VAC-3 Phase, 370W, 1.2A'},
+        {name:'Auxiliary switch', value:'10 NO + 10 NC contact + 6 NO + 6 NC Spare contact'},
+        {name:'Operating period', value:'<12 second'},
     ]},
     {id:'2', title:'Bay-1-CB', description:'Circuit Breaker (Tie Line)', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1735704903/nameplate_web/WhatsApp_Image_2025-01-01_at_9.43.36_AM_zm4rk8.jpg", data: [
         {name:'Make', value:'Crompton'},
@@ -409,10 +425,19 @@ export const tieLineData = [
 ]
 
 export const lineData = [
-    {id:'7', title:'Bay-2-CVT', description:'Capacitive Voltage Transformer', imageUrl:"", data: [
-        {name:'Make', value:''},
-        {name:'Mfg year', value:''},
-        {name:'Voltage ratio', value:'220/110V'}
+    {id:'0', title:'Bay-2-CVT', description:'Capacitive Voltage Transformer', imageUrl:"https://res.cloudinary.com/dvjbswt50/image/upload/v1736479308/nameplate_web/cwbli5ou9ibpxybkpi1w.jpg", data: [
+        {name:'Make', value:'Siemens'},
+        {name:'Mfg year', value:'2021'},
+        {name:'Type', value:'CVT 245'},
+        {name:'Insulation Level', value:'460kV/1050kVp'},
+        {name:'Capacitance', value:'5500 pF (+10%, -9%)'},
+        {name:'Total Oil Weight', value:'42kg'},
+        {name:'Highest System Voltage', value:'245kV'},
+        {name:'Voltage factor', value:'1.2 Continuous / 1.5-30 sec'},
+        {name:'Simultaneous Burden', value:'50 VA/ 0.2'},
+        {name:'Rated Thermal Burden', value:'500 VA'},
+        {name:'Insulation Class', value:'A'},
+        {name:'Voltage ratio', value:'220kv/110kv'},
     ]},
     {id:'41', title:'Bay-2-LA', description:'Lightening Arrestor', imageUrl:"", data: [
         {name:'Make', value:''},
